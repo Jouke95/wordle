@@ -73,9 +73,17 @@ int	game_loop(const char *secret_word) {
 int main(void) {
 	srand(time(NULL));
 
-	const char *word_list[] = { "house", "crane", "slant", "crate", "sleep",
-								"train", "snake", "print", "brake", "ghost",
-								"storm", "bread", "flesh", "grape", "horse" };
+	// const char *word_list[] = { "house", "crane", "slant", "crate", "sleep",
+	// 							"train", "snake", "print", "brake", "ghost",
+	// 							"storm", "bread", "flesh", "grape", "horse" };
+	const char *word_list[] = {
+		"messi", "depay", "blind", "silva", "bruno",
+		"giggs", "henry", "frank", "pogba", "kante",
+		"mount", "james", "lopes", "navas", "ramos",
+		"pique", "dante", "keane", "adams", "banks",
+		"salah", "gomes", "xhaka", "digne", "rodri",
+		"foden", "kroos", "pedri", "marco"
+	};
 	int num_words = sizeof(word_list) / sizeof(word_list[0]);
 
 	while (1) {
