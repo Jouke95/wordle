@@ -1,0 +1,5 @@
+wordle
+*.o
+*.out
+a.out
+.DS_Store
